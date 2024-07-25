@@ -1,4 +1,31 @@
-.title{
-    color: black;
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-wrap{
+  width:100%;
+  position: absolute;
+  z-index:100;
+}
+
+.navbar{
+    display:flex;
+    list-style: none;
+    padding:40px;
+    justify-content: space-evenly;
+}
+
+.menu-link-wrap{
+    display:inline-block;
     text-align: center;
+    font-weight: 500;
+}
+
+.menu-link-wrap:hover{
+    cursor: pointer;
+}
+.menu-link{
+    padding:10px;
+    width:50px;
 }
